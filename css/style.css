@@ -1,3 +1,7 @@
+body {
+  margin: 10%;
+}
+
 body .firstRow .firstRow__secondColumn {
   text-align: center;
 }
@@ -65,7 +69,7 @@ body .secondRow .secondRow__secondColumn img {
 
 @media (max-width: 1200px) {
   body {
-    margin: 10%;
+    margin: 0%;
   }
   body .firstRow img {
     -webkit-transform: scaleX(-1);
