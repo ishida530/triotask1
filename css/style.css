@@ -1,5 +1,8 @@
-body {
-  margin: 10%;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body .firstRow .firstRow__secondColumn {
@@ -68,9 +71,6 @@ body .secondRow .secondRow__secondColumn img {
 }
 
 @media (max-width: 1200px) {
-  body {
-    margin: 0%;
-  }
   body .firstRow img {
     -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
