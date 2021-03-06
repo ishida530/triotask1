@@ -57,7 +57,7 @@ body {
     .secondRow__secondColumn {
       img {
         width: 100%;
-        transform: translateX(-10%);
+        transform: translate(-10%, -20%);
       }
     }
   }
@@ -65,8 +65,10 @@ body {
 @media (max-width: 1200px) {
   body {
     .firstRow {
-      img {
-        transform: scaleX(-1);
+      .firstRow__firstColumn {
+        img {
+          transform: scaleX(-1);
+        }
       }
     }
 

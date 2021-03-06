@@ -66,12 +66,12 @@ body .secondRow .secondRow__firstColumn p {
 
 body .secondRow .secondRow__secondColumn img {
   width: 100%;
-  -webkit-transform: translateX(-10%);
-          transform: translateX(-10%);
+  -webkit-transform: translate(-10%, -20%);
+          transform: translate(-10%, -20%);
 }
 
 @media (max-width: 1200px) {
-  body .firstRow img {
+  body .firstRow .firstRow__firstColumn img {
     -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
   }
